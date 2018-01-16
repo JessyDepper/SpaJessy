@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jessy.android.apps.SpaJessy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainDashboardActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".manager.ManagerActivity"
+            android:label="@string/title_activity_manager"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".messenger.MessengerActivity"
+            android:label="@string/title_activity_messenger"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".messenger.ConversationActivity"
+            android:label="@string/title_activity_conversation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".more.MoreActivity"
+            android:label="@string/title_activity_more"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".more.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".more.ServicesActivity"
+            android:label="@string/title_activity_services"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".notifications.NotificationsActivity"
+            android:label="@string/title_activity_notifications"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".notifications.DetailsNotificationActivity"
+            android:label="@string/title_activity_details_notification"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

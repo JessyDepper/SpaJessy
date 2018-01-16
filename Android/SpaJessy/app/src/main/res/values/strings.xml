@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SpaJessy</string>
+    <string name="title_new_feed">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_messenger">Messenger</string>
+    <string name="title_manager">Manager</string>
+    <string name="title_more">More</string>
+    <string name="title_activity_manager">ManagerActivity</string>
+    <string name="title_activity_messenger">MessengerActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_conversation">ConversationActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_services">ServicesActivity</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
+    <string name="title_activity_details_notification">DetailsNotificationActivity</string>
+</resources>
